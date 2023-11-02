@@ -1,0 +1,170 @@
+.nav-item{
+    font-weight: 400;
+   
+}
+.nav-item::after{
+    font-weight: bolder;
+}
+.carousel{
+    background: gainsboro;
+}
+.carousel-item img{
+    width: 80%;
+}
+
+/* experience section */
+.head{
+    margin-top: 5rem;
+}
+.sec-left{
+    width: 30rem;
+    margin-top: 14rem;
+}
+.sec-left button{
+    margin-top: 1rem;
+    margin-left: 8rem;
+}
+ #coke-studio{
+margin-left: 4rem;
+}
+.section-exp{
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+    .section-exp{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sec-left{
+        text-align: center;
+        width: 40rem;
+        margin-top: 3rem;
+        
+    }
+    .sec-right{
+        margin-right: 0;
+    }
+}
+
+/* experience section end */
+
+/* sustain sec start */
+.sustain{
+    margin-top: 10rem;
+}
+.sus-card{
+    margin-top: 5rem;
+}
+.sustain-2{
+    margin-top: 5rem; 
+}
+
+.limca-btn{
+    margin-left: 4rem;
+    padding: .5rem 6rem;
+}
+.limca{
+    position: absolute;
+z-index: -10;
+margin-right: 35rem;
+margin-top: 10rem;
+}
+.limca-text{
+    margin-left: 30rem;
+}
+@media screen and (max-width: 992px) {
+   .sustain-2{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+   }
+   .limca{
+    width: 5rem;
+    margin-left: 0;
+    margin-top: 43rem;
+    height: 10rem;
+   }
+   .limca-text{
+    margin-left: 0;
+    width: 10rem;
+    height: 10rem;
+   }
+.brand-sec{
+    padding-top: 30rem;
+}
+}
+/* sustain-section-end */
+
+/* brand-sec-start */
+
+.brand-sec{
+    margin-top: 10rem;
+}
+.brands{
+    margin-top: 5rem;
+}
+.view-all{
+    margin-top: 3rem;
+    width: 100%;
+}
+.view-all button{
+    padding: .6rem 7rem;
+}
+
+.text{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.text p{
+    font-size: 1.5rem;
+    line-height: 26px;
+}
+footer{
+    height: 80vh;
+    background-color: #000;
+}
+.footer-top{
+    padding-top: 4rem;
+    height: 5rem;
+}
+.footer-text ul{
+margin-top: 5rem;
+list-style-type: none;
+}
+
+.footer-text li{
+    margin-bottom: .5rem;
+}
+.footer-text li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer-text p:hover{
+    text-decoration: none;
+}
+.social-media{
+    margin-top: 2rem;
+    width: 10rem;
+    margin-right: 8rem;
+}
+.icon{
+    font-size: 22px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+#terms{
+    margin-top: 7rem;
+    margin-left: 1rem;
+}
+
+
+
+/* responsive */
+
+@media screen and (max-width: 992px) {
+    
+}
+
